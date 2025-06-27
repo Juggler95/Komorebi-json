@@ -58,6 +58,16 @@
       "kind": "Title",
       "id": ".ahk",
       "matching_strategy": "Contains"
+    },
+    {
+      "kind": "Title",
+      "id": "Chief",
+      "matching_strategy": "Contains"
+    },
+    {
+      "kind": "Exe",
+      "id": "Hades.exe",
+      "matching_strategy": "Contains"
     }
   ],
   "monitors": [
@@ -110,7 +120,51 @@
           "layout": "BSP"
         },
         {
-          "name": "0",
+          "name": "10",
+          "layout": "BSP"
+        }
+      ]
+    },
+    {
+      "workspaces": [
+        {
+          "name": "I",
+          "layout": "UltrawideVerticalStack"
+        },
+        {
+          "name": "II",
+          "layout": "BSP"
+        },
+        {
+          "name": "III",
+          "layout": "BSP"
+        },
+        {
+          "name": "IV",
+          "layout": "BSP"
+        },
+        {
+          "name": "V",
+          "layout": "BSP"
+        },
+        {
+          "name": "VI",
+          "layout": "BSP"
+        },
+        {
+          "name": "VII",
+          "layout": "BSP"
+        },
+        {
+          "name": "VIII",
+          "layout": "BSP"
+        },
+        {
+          "name": "IX",
+          "layout": "BSP"
+        },
+        {
+          "name": "X",
           "layout": "BSP"
         }
       ]
