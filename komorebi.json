@@ -36,6 +36,10 @@
     {
       "kind": "Title",
       "id": "DesktopMate"
+    },
+    {
+      "kind": "Title",
+      "id": "Lumion"
     }
   ],
   "ignore_rules": [
@@ -60,8 +64,8 @@
       "matching_strategy": "Contains"
     },
     {
-      "kind": "Title",
-      "id": "Chief",
+      "kind": "Exe",
+      "id": "Chief Architect Premier X17.exe",
       "matching_strategy": "Contains"
     },
     {
@@ -86,15 +90,22 @@
               "id": "Code.exe"
             },
             {
-              "kind": "Exe",
+             "kind": "Exe",
               "id": "chrome.exe"
             }
           ]
         },
         {
           "name": "3",
-          "layout": "BSP"
+          "layout": "BSP",
+          "initial_workspace_rules": [
+            {
+              "kind": "Exe",
+              "id": "Lumion.exe"
+            }
+          ]
         },
+
         {
           "name": "4",
           "layout": "BSP"
