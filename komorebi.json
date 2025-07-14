@@ -5,6 +5,7 @@
   "cross_monitor_move_behaviour": "Swap",
   "default_workspace_padding": 20,
   "default_container_padding": 20,
+  "focus_follows_mouse": "Komorebi",
   "border": true,
   "border_width": 0,
   "border_offset": -18,
