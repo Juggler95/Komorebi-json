@@ -80,168 +80,103 @@
     {
       "workspaces": [
         {
-          "name": "1",
-          "layout": "BSP",
-           "initial_workspace_rules": [
-            {
-              "kind": "Exe",
-              "id": "chrome.exe"
-            }
-          ]
-        },
-        {
-          "name": "2",
-          "layout": "BSP"
-        },
-        {
-          "name": "3",
-          "layout": "BSP",
-          "initial_workspace_rules": [
-            {
-              "kind": "Exe",
-              "id": "Lumion.exe"
-            }
-          ]
-        },
-        {
-          "name": "4",
-          "layout": "BSP"
-        },
-        {
-          "name": "5",
-          "layout": "BSP"
-        },
-        {
-          "name": "6",
-          "layout": "BSP"
-        },
-        {
-          "name": "7",
-          "layout": "BSP"
-        },
-        {
-          "name": "8",
-          "layout": "BSP"
-        },
-        {
-          "name": "9",
-          "layout": "BSP"
-        },
-        {
-          "name": "10",
-          "layout": "BSP"
-        }
-      ]
-    },
-    {
-      "workspaces": [
-        {
-          "name": "I",
-          "layout": "Rows",
-          "initial_workspace_rules": [
-            {
-              "kind": "Exe",
-              "id": "Code.exe"
-            }
-          ]
+         "name": "I",
+         "layout": "BSP",
+         "initial_workspace_rules": [
+          {
+            "kind": "Exe",
+            "id": "pwsh.exe"
+          }
+         ]
         },
         {
           "name": "II",
-          "layout": "Rows",
-          "initial_workspace_rules": [
-            {
-              "kind": "Exe",
-              "id": "Spotify.exe"
-            },
-            {
-              "kind": "Exe",
-              "id": "Discord.exe"
-            }
-          ] 
+          "layout": "BSP"
         },
         {
           "name": "III",
-          "layout": "Rows"
+          "layout": "BSP"
         },
         {
           "name": "IV",
-          "layout": "Rows"
+          "layout": "BSP"
         },
         {
           "name": "V",
-          "layout": "Rows"
+          "layout": "BSP"
+        }
+     ]
+     
+    },
+    {
+      "workspaces": [
+        {
+         "name": "A",
+         "layout": "BSP",
+         "initial_workspace_rules": [
+          {
+            "kind": "Exe",
+            "id": "chrome.exe"
+          }
+         ]
         },
         {
-          "name": "VI",
-          "layout": "Rows"
+          "name": "B",
+         "layout": "BSP"
         },
         {
-          "name": "VII",
-          "layout": "Rows"
+          "name": "C",
+         "layout": "BSP"
         },
         {
-          "name": "VIII",
-          "layout": "Rows"
+          "name": "D",
+         "layout": "BSP"
         },
         {
-          "name": "IX",
-          "layout": "Rows"
-        },
-        {
-          "name": "X",
-          "layout": "Rows"
+          "name": "E",
+         "layout": "BSP"
         }
       ]
     },
     {
       "workspaces": [
-        {
-          "name": "A",
-          "layout": "UltrawideVerticalStack",
-          "initial_workspace_rules": [
-            {
-              "kind": "Title",
-              "id": "pwsh"
-            }
-          ]
+       {
+         "name": "I",
+         "layout": "Rows",
+         "initial_workspace_rules": [
+          {
+            "kind": "Exe",
+            "id": "code.exe"
+          }
+         ]
         },
         {
-          "name": "B",
-          "layout": "BSP"
+          "name": "II",
+         "layout": "Rows",
+         "initial_workspace_rules": [
+          {
+            "kind": "Exe",
+            "id": "Discord.exe"
+          },
+          {
+            "kind": "Exe",
+            "id": "Spotify.exe"
+          }
+         ]
         },
         {
-          "name": "C",
-          "layout": "BSP"
+          "name": "III",
+         "layout": "Rows"
         },
         {
-          "name": "D",
-          "layout": "BSP"
+          "name": "IV",
+         "layout": "Rows"
         },
         {
-          "name": "E",
-          "layout": "BSP"
-        },
-        {
-          "name": "F",
-          "layout": "BSP"
-        },
-        {
-          "name": "G",
-          "layout": "BSP"
-        },
-        {
-          "name": "H",
-          "layout": "BSP"
-        },
-        {
-          "name": "IJ",
-          "layout": "BSP"
-        },
-        {
-          "name": "K",
-          "layout": "BSP"
+          "name": "V",
+         "layout": "Rows"
         }
-      ]
+     ]
     }
   ]
 }
