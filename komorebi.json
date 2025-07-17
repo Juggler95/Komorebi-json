@@ -5,7 +5,8 @@
   "cross_monitor_move_behaviour": "Swap",
   "default_workspace_padding": 20,
   "default_container_padding": 20,
-  "focus_follows_mouse": "Komorebi",
+  "focus_follows_mouse": "Windows",
+  "mouse_follows_focus": false,
   "border": true,
   "border_width": 0,
   "border_offset": -18,
@@ -80,21 +81,17 @@
       "workspaces": [
         {
           "name": "1",
-          "layout": "BSP"
-        },
-        {
-          "name": "2",
           "layout": "BSP",
-          "initial_workspace_rules": [
+           "initial_workspace_rules": [
             {
               "kind": "Exe",
-              "id": "Code.exe"
-            },
-            {
-             "kind": "Exe",
               "id": "chrome.exe"
             }
           ]
+        },
+        {
+          "name": "2",
+          "layout": "BSP"
         },
         {
           "name": "3",
@@ -106,7 +103,6 @@
             }
           ]
         },
-
         {
           "name": "4",
           "layout": "BSP"
@@ -141,42 +137,108 @@
       "workspaces": [
         {
           "name": "I",
-          "layout": "UltrawideVerticalStack"
+          "layout": "Rows",
+          "initial_workspace_rules": [
+            {
+              "kind": "Exe",
+              "id": "Code.exe"
+            }
+          ]
         },
         {
           "name": "II",
-          "layout": "BSP"
+          "layout": "Rows",
+          "initial_workspace_rules": [
+            {
+              "kind": "Exe",
+              "id": "Spotify.exe"
+            },
+            {
+              "kind": "Exe",
+              "id": "Discord.exe"
+            }
+          ] 
         },
         {
           "name": "III",
-          "layout": "BSP"
+          "layout": "Rows"
         },
         {
           "name": "IV",
-          "layout": "BSP"
+          "layout": "Rows"
         },
         {
           "name": "V",
-          "layout": "BSP"
+          "layout": "Rows"
         },
         {
           "name": "VI",
-          "layout": "BSP"
+          "layout": "Rows"
         },
         {
           "name": "VII",
-          "layout": "BSP"
+          "layout": "Rows"
         },
         {
           "name": "VIII",
-          "layout": "BSP"
+          "layout": "Rows"
         },
         {
           "name": "IX",
-          "layout": "BSP"
+          "layout": "Rows"
         },
         {
           "name": "X",
+          "layout": "Rows"
+        }
+      ]
+    },
+    {
+      "workspaces": [
+        {
+          "name": "A",
+          "layout": "UltrawideVerticalStack",
+          "initial_workspace_rules": [
+            {
+              "kind": "Title",
+              "id": "pwsh"
+            }
+          ]
+        },
+        {
+          "name": "B",
+          "layout": "BSP"
+        },
+        {
+          "name": "C",
+          "layout": "BSP"
+        },
+        {
+          "name": "D",
+          "layout": "BSP"
+        },
+        {
+          "name": "E",
+          "layout": "BSP"
+        },
+        {
+          "name": "F",
+          "layout": "BSP"
+        },
+        {
+          "name": "G",
+          "layout": "BSP"
+        },
+        {
+          "name": "H",
+          "layout": "BSP"
+        },
+        {
+          "name": "IJ",
+          "layout": "BSP"
+        },
+        {
+          "name": "K",
           "layout": "BSP"
         }
       ]
